@@ -1,6 +1,6 @@
 const express=require("express")
 const cookieParser=require("cookie-parser")
-const interviewRouter = require("./routes/interview.routes")
+const interviewRouter = require("./routes/interveiw.routes")
 
 const app =express()
 app.use(express.json())
